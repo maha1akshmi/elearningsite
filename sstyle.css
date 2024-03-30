@@ -1,0 +1,417 @@
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Basic styles */
+body {
+  font-family: Russo One;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+    text-align: left;
+    margin-top: -25px;
+    color : oklch;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2em;
+  color: #333;
+  text-decoration: none;
+}
+h1 {
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+
+nav {
+  display: flex;
+  background-color: none;
+
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  
+  text-align: center;
+  
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+  color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: .93rem;
+}
+
+.active {
+  font-weight: bold;
+}
+main {
+  padding: 20px;
+  
+}
+
+section {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+section:not(:last-child) {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #ddd;
+  border-radius: 10px;	
+  
+}
+
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 40px;
+  background-color: #FF595E;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.hero h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color : white;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.hero-buttons a {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.hero-buttons a:hover {
+  background-color: #444;
+}
+
+/* Course Categories */
+.course-categories {
+  padding: 20px;
+  
+}
+
+.course-categories h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.course-category {
+  margin-bottom: 20px;
+  border: 3px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  width: 52%;
+  background-color: #FF595E;
+}
+
+.course-category h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  color: white;
+}
+
+/* About Us Section */
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.about-section .image-container {
+  width: 40%;
+  padding: 20px;
+  border: 3px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.about-section .image-container img {
+  width: 100%;
+  display: block;
+}
+
+.about-section h2 {
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.about-section .button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-section .button-container a {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.about-section .button-container a:hover {
+  background-color: #444;
+}
+
+
+
+//* Categories Section */
+.categories {
+  padding: 20px;
+}
+
+.categories h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.category-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+/* sstyle.css | file:///home/ne0psych/Desktop/ma/sstyle.css */
+
+.category-item {
+  width: 30%; 
+  padding: 15px; 
+  border: 3px solid #ddd; 
+   border-radius: 10px; 
+   margin-bottom: 20px; 
+  background-color: #FF595E;
+}
+
+
+.category-item h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.category-button {
+  padding: 10px 15px;
+  background-color: #210B2C;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: inline-flex;
+}
+
+.category-button:hover {
+  background-color: oklch;
+}
+
+/* Contact Form */
+.contact-form form {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.contact-form .form-group {
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.contact-form label {
+  width: 100px;
+ font-weight: bold;
+  text-align: right;
+  display: inline-flex;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.contact-form textarea {
+  height: 100px;
+}
+
+.contact-form button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.contact-form button:hover {
+  background-color: #444;
+}
+
+/* Contact Info */
+.contact-info p {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info .label {
+  width: 120px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Contact Map */
+.contact-map iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  border: none;
+}
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .dropdown button:hover {
+      background-color: #3e8e41;
+    }
+    
+ p{
+ 
+ color: oklch;
+ font-weight: bold;
+ }
+
+/* Footer */
+footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+
+
